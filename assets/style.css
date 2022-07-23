@@ -45,11 +45,54 @@ header .cabecalho {
   font-size: 20px;
 }
 
-/* .conteudo-principal .container {
+.conteudo-principal .container {
   margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .conteudo-principal .container .titulo-principal {
   color: #766f68;
-  font-size: 40px;
-} */
+  font-size: 50px;
+  font-weight: bold;
+  width: 400px;
+  left: 260px;
+  top: 162px;
+}
+
+.paragrafo-principal {
+  color: #766f68;
+  font-size: 22px;
+  width: 308px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 2;
+  left: 260px;
+  top: 162px;
+}
+
+.btn {
+  color: #fff;
+  background: #d2872c;
+  padding: 15px 76px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+img {
+  position: relative;
+  z-index: 1;
+  max-width: 630px;
+  height: auto;
+  right: -14px;
+}
